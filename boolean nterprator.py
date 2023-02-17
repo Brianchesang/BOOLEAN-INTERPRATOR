@@ -82,20 +82,14 @@ def the_merge():
         sub_list_brackets = 0
         print( sub_list_brackets)
        
-    '''if len(sbrackets) != 0 :
-        print(sbrackets)
-        var_length = len(sbrackets)
-        #var_name = ''.join(elements[(sbrackets[0]+1):sbrackets[1]])
-        variableStore["Name"].append(var_name)
-        value = elements[(assign+1)]
-        variableStore["Value"].append(value)'''
+    
 
     return(print(elements))
     
    
 def the_Value_changer(list):
     '''Changinging every T value to 1 and every F value to 0 '''
-    #brackets,sbrackets,O,A,N,assign, elements= element_detectionAndBreakdown(Input_breakdown())
+   
     elements=list
     for i in range(len(elements)):
         if elements[i]=="T":
@@ -132,8 +126,8 @@ def boolean_solve(list,list2):
         elements[A[i]-1] = None
         elements[A[i]+1] = None
         elements = [ x for x in elements if x != None]
-        ''' REMOVE THE NONE ELEMTS!!!'''
-        ##elements = elements
+        
+        
         print(elements)
     
 
@@ -198,9 +192,7 @@ def not_OP(condition):
     
 
 
-## This function takes in the dictionary from the lexical analysis step and organises them in order
-# it starts with the parenthesis , and takes every thing inbetween them and performs the operation
-# then proceeds to 
+
 
 
 
@@ -246,16 +238,7 @@ def evaluate(expression):
     # Return the result
     return result
 
-## this function defines the boolean operations
-## we will also use a dictionary to relat a symbol to a specific operation.
-def Boolean_Ops():
-    return
 
-
-    
-## this function takes in the values and boolean operands in there sequence and gives the output 
-def run_booltest():
-    return
 
 #element_detectionAndBreakdown()
 while 1/2 !=3:
