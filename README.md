@@ -71,5 +71,6 @@ A list that stores the broken-down expression within brackets.
 How to Use
 type in the boolean operation you want to be done. 
 the program takes T for true and F for false so an example of input is TAT this will perform an and operation and give 1 as output.
+A variable is created by using square brackets i.e. [var]=T var will refer to T
 
 
